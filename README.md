@@ -1,4 +1,5 @@
 # TCL AC Controller
+![How it works](docs/how-it-works.png)
 (unoffical, self made)
 
 ## Setup
@@ -33,6 +34,8 @@ py controller.py temp +1    raise the temperature by 1 (use -1 to lower it)
 (temperature always in between 16 and 30 (its locked by TCL) )
 
 ## How it works
+
+
 
 TCL has no public API, so this script request the TCL home app
 
